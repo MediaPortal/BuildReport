@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<build started="06.02.2013 00:11:01">
+  <project targets="Rebuild" file="D:\mediaportal\sources\MediaPortal-1\Tools\MediaPortal.DeployTool\MediaPortal.DeployTool.sln" started="06.02.2013 00:11:01">
+    <target name="ValidateSolutionConfiguration" started="06.02.2013 00:11:01">
+      <message importance="Normal"><![CDATA[Die Projektmappenkonfiguration "Release|x86" wird erstellt.]]></message>
+    </target>
+    <target name="ValidateToolsVersions" started="06.02.2013 00:11:01" />
+    <target name="ValidateProjects" started="06.02.2013 00:11:01" />
+    <target name="Rebuild" started="06.02.2013 00:11:01">
+      <project targets="Rebuild" file="D:\mediaportal\sources\MediaPortal-1\Tools\MediaPortal.DeployTool\MediaPortal.DeployTool.csproj" started="06.02.2013 00:11:02">
+        <target name="_CheckForInvalidConfigurationAndPlatform" started="06.02.2013 00:11:02" />
+        <target name="BeforeRebuild" started="06.02.2013 00:11:02" />
+        <target name="BeforeClean" started="06.02.2013 00:11:02" />
+        <target name="CoreClean" started="06.02.2013 00:11:02">
+          <message importance="Normal"><![CDATA[Das Verzeichnis "obj\x86\Release\" wird erstellt.]]></message>
+        </target>
+        <target name="AssignProjectConfiguration" started="06.02.2013 00:11:02" />
+        <target name="_SplitProjectReferencesByFileExistence" started="06.02.2013 00:11:02" />
+        <target name="CleanReferencedProjects" started="06.02.2013 00:11:02" />
+        <target name="CleanPublishFolder" started="06.02.2013 00:11:02" />
+        <target name="AfterClean" started="06.02.2013 00:11:02" />
+        <target name="Clean" started="06.02.2013 00:11:02" />
+        <target name="BeforeBuild" started="06.02.2013 00:11:02" />
+        <target name="BuildOnlySettings" started="06.02.2013 00:11:02" />
+        <target name="GetFrameworkPaths" started="06.02.2013 00:11:02" />
+        <target name="GetReferenceAssemblyPaths" started="06.02.2013 00:11:02" />
+        <target name="PrepareForBuild" started="06.02.2013 00:11:02">
+          <message importance="Normal"><![CDATA[Das Verzeichnis "bin\Release\" wird erstellt.]]></message>
+        </target>
+        <target name="BeforeResolveReferences" started="06.02.2013 00:11:02" />
+        <target name="ResolveProjectReferences" started="06.02.2013 00:11:02" />
+        <target name="GetInstalledSDKLocations" started="06.02.2013 00:11:02" />
+        <target name="ResolveSDKReferences" started="06.02.2013 00:11:02" />
+        <target name="ExpandSDKReferences" started="06.02.2013 00:11:02" />
+        <target name="ResolveAssemblyReferences" started="06.02.2013 00:11:02" />
+        <target name="ResolveComReferences" started="06.02.2013 00:11:02">
+          <message importance="High"><![CDATA[C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\TlbImp.exe C:\Windows\SysWOW64\FirewallAPI.dll /namespace:NetFwTypeLib /machine:X86 /out:obj\x86\Release\Interop.NetFwTypeLib.dll /sysarray /transform:DispRet /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll" /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.ServiceProcess.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll" /reference:C:\Windows\assembly\GAC\stdole\7.0.3300.0__b03f5f7f11d50a3a\stdole.dll ]]></message>
+        </target>
+        <target name="AfterResolveReferences" started="06.02.2013 00:11:04" />
+        <target name="ResolveReferences" started="06.02.2013 00:11:04" />
+        <target name="AfterMarkupCompilePass1" started="06.02.2013 00:11:04" />
+        <target name="FileClassification" started="06.02.2013 00:11:04" />
+        <target name="AssignTargetPaths" started="06.02.2013 00:11:04" />
+        <target name="SplitResourcesByCulture" started="06.02.2013 00:11:04" />
+        <target name="CreateManifestResourceNames" started="06.02.2013 00:11:04" />
+        <target name="CreateCustomManifestResourceNames" started="06.02.2013 00:11:05" />
+        <target name="PrepareResourceNames" started="06.02.2013 00:11:05" />
+        <target name="BeforeResGen" started="06.02.2013 00:11:05" />
+        <target name="CoreResGen" started="06.02.2013 00:11:05">
+          <message importance="Normal"><![CDATA[Die Ressourcendatei DeployDialog.resx wird zu obj\x86\Release\MediaPortal.DeployTool.DeployDialog.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei DeployTool.resx wird zu obj\x86\Release\MediaPortal.DeployTool.DeployTool.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei HTTPDownload.resx wird zu obj\x86\Release\MediaPortal.DeployTool.HTTPDownload.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei Images.resx wird zu obj\x86\Release\MediaPortal.DeployTool.Images.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei ManualDownload.resx wird zu obj\x86\Release\MediaPortal.DeployTool.ManualDownload.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei ManualDownloadFileMissing.resx wird zu obj\x86\Release\MediaPortal.DeployTool.ManualDownloadFileMissing.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei MediaPortal.DeployTool.resx wird zu obj\x86\Release\MediaPortal.DeployTool.MediaPortal.DeployTool.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei Sections\BaseInstallationTypeDlg.resx wird zu obj\x86\Release\MediaPortal.DeployTool.Sections.BaseInstallationTypeDlg.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei Sections\BaseInstallationTypeWithoutTvEngineDlg.resx wird zu obj\x86\Release\MediaPortal.DeployTool.Sections.BaseInstallationTypeWithoutTvEngineDlg.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei Sections\ExtensionChoice.resx wird zu obj\x86\Release\MediaPortal.DeployTool.Sections.ExtensionChoice.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei Sections\SkinChoice.resx wird zu obj\x86\Release\MediaPortal.DeployTool.Sections.SkinChoice.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei Sections\UpgradeDlg.resx wird zu obj\x86\Release\MediaPortal.DeployTool.Sections.UpgradeDlg.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei Sections\DownloadSettingsDlg.resx wird zu obj\x86\Release\MediaPortal.DeployTool.Sections.DownloadSettingsDlg.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei Sections\DownloadOnlyDlg.resx wird zu obj\x86\Release\MediaPortal.DeployTool.Sections.DownloadOnlyDlg.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei Sections\WatchTvDlg.resx wird zu obj\x86\Release\MediaPortal.DeployTool.Sections.WatchTVDlg.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei Sections\CustomInstallationTypeDlg.resx wird zu obj\x86\Release\MediaPortal.DeployTool.Sections.CustomInstallationTypeDlg.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei Sections\FinishedDlg.resx wird zu obj\x86\Release\MediaPortal.DeployTool.Sections.FinishedDlg.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei Sections\InstallDlg.resx wird zu obj\x86\Release\MediaPortal.DeployTool.Sections.InstallDlg.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei Sections\DBMSSettingsDlg.resx wird zu obj\x86\Release\MediaPortal.DeployTool.Sections.DBMSSettingsDlg.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei Sections\DBMSTypeDlg.resx wird zu obj\x86\Release\MediaPortal.DeployTool.Sections.DBMSTypeDlg.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei Sections\MPSettingsDlg.resx wird zu obj\x86\Release\MediaPortal.DeployTool.Sections.MPSettingsDlg.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei Sections\TvServerSettingsDlg.resx wird zu obj\x86\Release\MediaPortal.DeployTool.Sections.TvServerSettingsDlg.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei Sections\WelcomeDlg.resx wird zu obj\x86\Release\MediaPortal.DeployTool.Sections.WelcomeDlg.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei MediaPortal.DeployTool.cs-CZ.resx wird zu obj\x86\Release\MediaPortal.DeployTool.MediaPortal.DeployTool.cs-CZ.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei MediaPortal.DeployTool.da-DK.resx wird zu obj\x86\Release\MediaPortal.DeployTool.MediaPortal.DeployTool.da-DK.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei MediaPortal.DeployTool.de-AT.resx wird zu obj\x86\Release\MediaPortal.DeployTool.MediaPortal.DeployTool.de-AT.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei MediaPortal.DeployTool.de-DE.resx wird zu obj\x86\Release\MediaPortal.DeployTool.MediaPortal.DeployTool.de-DE.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei MediaPortal.DeployTool.el-GR.resx wird zu obj\x86\Release\MediaPortal.DeployTool.MediaPortal.DeployTool.el-GR.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei MediaPortal.DeployTool.es-ES.resx wird zu obj\x86\Release\MediaPortal.DeployTool.MediaPortal.DeployTool.es-ES.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei MediaPortal.DeployTool.fr-FR.resx wird zu obj\x86\Release\MediaPortal.DeployTool.MediaPortal.DeployTool.fr-FR.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei MediaPortal.DeployTool.hr-HR.resx wird zu obj\x86\Release\MediaPortal.DeployTool.MediaPortal.DeployTool.hr-HR.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei MediaPortal.DeployTool.it-IT.resx wird zu obj\x86\Release\MediaPortal.DeployTool.MediaPortal.DeployTool.it-IT.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei MediaPortal.DeployTool.ja-JP.resx wird zu obj\x86\Release\MediaPortal.DeployTool.MediaPortal.DeployTool.ja-JP.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei MediaPortal.DeployTool.mk-MK.resx wird zu obj\x86\Release\MediaPortal.DeployTool.MediaPortal.DeployTool.mk-MK.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei MediaPortal.DeployTool.nb-NO.resx wird zu obj\x86\Release\MediaPortal.DeployTool.MediaPortal.DeployTool.nb-NO.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei MediaPortal.DeployTool.nl-NL.resx wird zu obj\x86\Release\MediaPortal.DeployTool.MediaPortal.DeployTool.nl-NL.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei MediaPortal.DeployTool.pl-PL.resx wird zu obj\x86\Release\MediaPortal.DeployTool.MediaPortal.DeployTool.pl-PL.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei MediaPortal.DeployTool.pt-BR.resx wird zu obj\x86\Release\MediaPortal.DeployTool.MediaPortal.DeployTool.pt-BR.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei MediaPortal.DeployTool.pt-PT.resx wird zu obj\x86\Release\MediaPortal.DeployTool.MediaPortal.DeployTool.pt-PT.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei MediaPortal.DeployTool.ro-RO.resx wird zu obj\x86\Release\MediaPortal.DeployTool.MediaPortal.DeployTool.ro-RO.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei MediaPortal.DeployTool.ru-RU.resx wird zu obj\x86\Release\MediaPortal.DeployTool.MediaPortal.DeployTool.ru-RU.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei MediaPortal.DeployTool.sl-SI.resx wird zu obj\x86\Release\MediaPortal.DeployTool.MediaPortal.DeployTool.sl-SI.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei MediaPortal.DeployTool.sr-Cyrl-CS.resx wird zu obj\x86\Release\MediaPortal.DeployTool.MediaPortal.DeployTool.sr-Cyrl-CS.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei MediaPortal.DeployTool.sr-Latn-CS.resx wird zu obj\x86\Release\MediaPortal.DeployTool.MediaPortal.DeployTool.sr-Latn-CS.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei MediaPortal.DeployTool.sv-SE.resx wird zu obj\x86\Release\MediaPortal.DeployTool.MediaPortal.DeployTool.sv-SE.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei MediaPortal.DeployTool.tr-TR.resx wird zu obj\x86\Release\MediaPortal.DeployTool.MediaPortal.DeployTool.tr-TR.resources verarbeitet.]]></message>
+          <message importance="Normal"><![CDATA[Die Ressourcendatei MediaPortal.DeployTool.zh-CN.resx wird zu obj\x86\Release\MediaPortal.DeployTool.MediaPortal.DeployTool.zh-CN.resources verarbeitet.]]></message>
+        </target>
+        <target name="AfterResGen" started="06.02.2013 00:11:08" />
+        <target name="ResGen" started="06.02.2013 00:11:08" />
+        <target name="PrepareRdlFiles" started="06.02.2013 00:11:08" />
+        <target name="CompileRdlFiles" started="06.02.2013 00:11:08" />
+        <target name="PrepareResources" started="06.02.2013 00:11:08" />
+        <target name="_SetEmbeddedWin32ManifestProperties" started="06.02.2013 00:11:08" />
+        <target name="SetWin32ManifestProperties" started="06.02.2013 00:11:08" />
+        <target name="_GenerateCompileInputs" started="06.02.2013 00:11:08" />
+        <target name="_SetTargetFrameworkMonikerAttribute" started="06.02.2013 00:11:08" />
+        <target name="BeforeCompile" started="06.02.2013 00:11:08" />
+        <target name="CoreCompile" started="06.02.2013 00:11:08">
+          <message importance="High"><![CDATA[C:\Windows\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /platform:x86 /errorreport:prompt /warn:4 /define:TRACE /highentropyva- /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll" /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.ServiceProcess.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll" /reference:obj\x86\Release\Interop.NetFwTypeLib.dll /debug:pdbonly /optimize+ /out:obj\x86\Release\MediaPortal.DeployTool.exe /resource:obj\x86\Release\MediaPortal.DeployTool.DeployDialog.resources /resource:obj\x86\Release\MediaPortal.DeployTool.DeployTool.resources /resource:obj\x86\Release\MediaPortal.DeployTool.HTTPDownload.resources /resource:obj\x86\Release\MediaPortal.DeployTool.Images.resources /resource:obj\x86\Release\MediaPortal.DeployTool.ManualDownload.resources /resource:obj\x86\Release\MediaPortal.DeployTool.ManualDownloadFileMissing.resources /resource:obj\x86\Release\MediaPortal.DeployTool.MediaPortal.DeployTool.resources /resource:obj\x86\Release\MediaPortal.DeployTool.Sections.BaseInstallationTypeDlg.resources /resource:obj\x86\Release\MediaPortal.DeployTool.Sections.BaseInstallationTypeWithoutTvEngineDlg.resources /resource:obj\x86\Release\MediaPortal.DeployTool.Sections.ExtensionChoice.resources /resource:obj\x86\Release\MediaPortal.DeployTool.Sections.SkinChoice.resources /resource:obj\x86\Release\MediaPortal.DeployTool.Sections.UpgradeDlg.resources /resource:obj\x86\Release\MediaPortal.DeployTool.Sections.DownloadSettingsDlg.resources /resource:obj\x86\Release\MediaPortal.DeployTool.Sections.DownloadOnlyDlg.resources /resource:obj\x86\Release\MediaPortal.DeployTool.Sections.WatchTVDlg.resources /resource:obj\x86\Release\MediaPortal.DeployTool.Sections.CustomInstallationTypeDlg.resources /resource:obj\x86\Release\MediaPortal.DeployTool.Sections.FinishedDlg.resources /resource:obj\x86\Release\MediaPortal.DeployTool.Sections.InstallDlg.resources /resource:obj\x86\Release\MediaPortal.DeployTool.Sections.DBMSSettingsDlg.resources /resource:obj\x86\Release\MediaPortal.DeployTool.Sections.DBMSTypeDlg.resources /resource:obj\x86\Release\MediaPortal.DeployTool.Sections.MPSettingsDlg.resources /resource:obj\x86\Release\MediaPortal.DeployTool.Sections.TvServerSettingsDlg.resources /resource:obj\x86\Release\MediaPortal.DeployTool.Sections.WelcomeDlg.resources /target:winexe /utf8output /win32icon:Install.ico /win32manifest:MediaPortal.DeployTool.exe.manifest ..\..\Common-MP-TVE3\OsInfo\OSInfo.cs InstallationChecks\LAVFilterMPEInstall.cs InstallationChecks\MPEInstall.cs InstallationChecks\OldVCRedistChecker.cs InstallationChecks\TitanExtensionInstall.cs InstallationChecks\VCRedistChecker.cs InstallationChecks\DiskSpaceChecker.cs InstallationChecks\InternetChecker.cs ManualDownloadFileMissing.cs ManualDownloadFileMissing.Designer.cs HTTPDownload.cs HTTPDownload.Designer.cs IInstallationPackage.cs DeployDialog.cs DeployDialog.Designer.cs DeployTool.cs DeployTool.Designer.cs DialogFlowHandler.cs IDeployDialog.cs Images.Designer.cs InstallationChecks\OldPackagesChecker.cs InstallationChecks\WindowsFirewallChecker.cs InstallationChecks\MySQLChecker.cs InstallationChecks\MSSQLExpressChecker.cs InstallationChecks\TvPluginChecker.cs InstallationChecks\TvServerChecker.cs InstallationChecks\DirectX9Checker.cs InstallationChecks\MediaPortalChecker.cs InstallationChecks\WindowsMediaPlayerChecker.cs InstallationProperties.cs ManualDownload.cs ManualDownload.Designer.cs MPListView.cs Program.cs Properties\AssemblyInfo.cs Properties\Settings.Designer.cs Sections\BaseInstallationTypeDlg.cs Sections\BaseInstallationTypeDlg.Designer.cs Sections\BaseInstallationTypeWithoutTvEngineDlg.cs Sections\BaseInstallationTypeWithoutTvEngineDlg.Designer.cs Sections\ExtensionChoice.cs Sections\ExtensionChoice.designer.cs Sections\SkinChoice.cs Sections\SkinChoice.designer.cs Sections\UpgradeDlg.cs Sections\UpgradeDlg.Designer.cs Sections\DownloadSettingsDlg.cs Sections\DownloadSettingsDlg.Designer.cs Sections\DownloadOnlyDlg.cs Sections\DownloadOnlyDlg.Designer.cs Sections\WatchTvDlg.cs Sections\WatchTvDlg.Designer.cs Sections\CustomInstallationTypeDlg.cs Sections\CustomInstallationTypeDlg.Designer.cs Sections\FinishedDlg.cs Sections\FinishedDlg.Designer.cs Sections\InstallDlg.cs Sections\InstallDlg.Designer.cs Sections\DBMSSettingsDlg.cs Sections\DBMSSettingsDlg.Designer.cs Sections\DBMSTypeDlg.cs Sections\DBMSTypeDlg.Designer.cs Sections\MPSettingsDlg.cs Sections\MPSettingsDlg.Designer.cs Sections\TvServerSettingsDlg.cs Sections\TvServerSettingsDlg.Designer.cs Sections\WelcomeDlg.cs Sections\WelcomeDlg.Designer.cs Utils.cs]]></message>
+          <warning code="CS0168" file="InstallationChecks\MPEInstall.cs" line="211" column="24"><![CDATA[Die Variable 'ex' ist deklariert, wird aber nie verwendet.]]></warning>
+        </target>
+        <target name="AfterCompile" started="06.02.2013 00:11:10" />
+        <target name="AfterCompileWinFX" started="06.02.2013 00:11:10" />
+        <target name="_AfterCompileWinFXInternal" started="06.02.2013 00:11:10" />
+        <target name="Compile" started="06.02.2013 00:11:10" />
+        <target name="_GenerateSatelliteAssemblyInputs" started="06.02.2013 00:11:10" />
+        <target name="ComputeIntermediateSatelliteAssemblies" started="06.02.2013 00:11:10" />
+        <target name="GenerateSatelliteAssemblies" started="06.02.2013 00:11:10">
+          <message importance="Normal"><![CDATA[Das Verzeichnis "obj\x86\Release\cs-CZ" wird erstellt.]]></message>
+          <message importance="Normal"><![CDATA[Das Verzeichnis "obj\x86\Release\da-DK" wird erstellt.]]></message>
+          <message importance="Normal"><![CDATA[Das Verzeichnis "obj\x86\Release\de-AT" wird erstellt.]]></message>
+          <message importance="Normal"><![CDATA[Das Verzeichnis "obj\x86\Release\de-DE" wird erstellt.]]></message>
+          <message importance="Normal"><![CDATA[Das Verzeichnis "obj\x86\Release\el-GR" wird erstellt.]]></message>
+          <message importance="Normal"><![CDATA[Das Verzeichnis "obj\x86\Release\es-ES" wird erstellt.]]></message>
+          <message importance="Normal"><![CDATA[Das Verzeichnis "obj\x86\Release\fr-FR" wird erstellt.]]></message>
+          <message importance="Normal"><![CDATA[Das Verzeichnis "obj\x86\Release\hr-HR" wird erstellt.]]></message>
+          <message importance="Normal"><![CDATA[Das Verzeichnis "obj\x86\Release\it-IT" wird erstellt.]]></message>
+          <message importance="Normal"><![CDATA[Das Verzeichnis "obj\x86\Release\ja-JP" wird erstellt.]]></message>
+          <message importance="Normal"><![CDATA[Das Verzeichnis "obj\x86\Release\mk-MK" wird erstellt.]]></message>
+          <message importance="Normal"><![CDATA[Das Verzeichnis "obj\x86\Release\nb-NO" wird erstellt.]]></message>
+          <message importance="Normal"><![CDATA[Das Verzeichnis "obj\x86\Release\nl-NL" wird erstellt.]]></message>
+          <message importance="Normal"><![CDATA[Das Verzeichnis "obj\x86\Release\pl-PL" wird erstellt.]]></message>
+          <message importance="Normal"><![CDATA[Das Verzeichnis "obj\x86\Release\pt-BR" wird erstellt.]]></message>
+          <message importance="Normal"><![CDATA[Das Verzeichnis "obj\x86\Release\pt-PT" wird erstellt.]]></message>
+          <message importance="Normal"><![CDATA[Das Verzeichnis "obj\x86\Release\ro-RO" wird erstellt.]]></message>
+          <message importance="Normal"><![CDATA[Das Verzeichnis "obj\x86\Release\ru-RU" wird erstellt.]]></message>
+          <message importance="Normal"><![CDATA[Das Verzeichnis "obj\x86\Release\sl-SI" wird erstellt.]]></message>
+          <message importance="Normal"><![CDATA[Das Verzeichnis "obj\x86\Release\sr-Cyrl-CS" wird erstellt.]]></message>
+          <message importance="Normal"><![CDATA[Das Verzeichnis "obj\x86\Release\sr-Latn-CS" wird erstellt.]]></message>
+          <message importance="Normal"><![CDATA[Das Verzeichnis "obj\x86\Release\sv-SE" wird erstellt.]]></message>
+          <message importance="Normal"><![CDATA[Das Verzeichnis "obj\x86\Release\tr-TR" wird erstellt.]]></message>
+          <message importance="Normal"><![CDATA[Das Verzeichnis "obj\x86\Release\zh-CN" wird erstellt.]]></message>
+          <error code="MSB6004" file="C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets" line="2836" column="5"><![CDATA[Der angegebene Speicherort der ausführbaren Datei der Aufgabe "\Bin\AL.exe" ist ungültig.]]></error>
+        </target>
+        <target name="_CheckForCompileOutputs" started="06.02.2013 00:11:10" />
+        <target name="_CleanGetCurrentAndPriorFileWrites" started="06.02.2013 00:11:10" />
+        <target name="_CleanRecordFileWrites" started="06.02.2013 00:11:10" />
+      </project>
+    </target>
+  </project>
+  <warnings>1</warnings>
+  <errors>1</errors>
+  <starttime>06.02.2013 00:11:01</starttime>
+  <endtime>06.02.2013 00:11:10</endtime>
+  <timeelapsed>00:00:09.0895199</timeelapsed>
+</build>

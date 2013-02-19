@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<build started="06.02.2013 00:18:51">
+  <project targets="Rebuild" file="D:\MediaPortal\Sources\MediaPortal-1\mediaportal\Core.cpp\Core.cpp.sln" started="06.02.2013 00:18:51">
+    <target name="ValidateSolutionConfiguration" started="06.02.2013 00:18:51">
+      <message importance="Normal"><![CDATA[Die Projektmappenkonfiguration "Debug|Win32" wird erstellt.]]></message>
+    </target>
+    <target name="ValidateToolsVersions" started="06.02.2013 00:18:51" />
+    <target name="ValidateProjects" started="06.02.2013 00:18:51">
+      <message importance="Normal"><![CDATA[Das Projekt "Win7RefreshRateHelper" ist in der Projektmappenkonfiguration "Debug|Win32" nicht zum Erstellen ausgewählt.]]></message>
+    </target>
+    <target name="Rebuild" started="06.02.2013 00:18:51">
+      <project targets="Rebuild" file="D:\MediaPortal\Sources\MediaPortal-1\mediaportal\Core.cpp\DirectShowHelper\dshowhelper.vcxproj" started="06.02.2013 00:18:51">
+        <target name="_CheckForInvalidConfigurationAndPlatform" started="06.02.2013 00:18:51" />
+        <target name="_PrepareForRebuild" started="06.02.2013 00:18:51" />
+        <target name="BeforeRebuild" started="06.02.2013 00:18:51" />
+        <target name="_PrepareForClean" started="06.02.2013 00:18:51" />
+        <target name="BeforeClean" started="06.02.2013 00:18:51" />
+        <target name="CoreClean" started="06.02.2013 00:18:51">
+          <message importance="Normal"><![CDATA[Das Verzeichnis ".\obj\Debug\" wird erstellt.]]></message>
+        </target>
+        <target name="AssignProjectConfiguration" started="06.02.2013 00:18:51" />
+        <target name="_SplitProjectReferencesByFileExistence" started="06.02.2013 00:18:51" />
+        <target name="CleanReferencedProjects" started="06.02.2013 00:18:51" />
+        <target name="CleanPublishFolder" started="06.02.2013 00:18:51" />
+        <target name="AfterClean" started="06.02.2013 00:18:51" />
+        <target name="BeforeCppClean" started="06.02.2013 00:18:51" />
+        <target name="CoreCppClean" started="06.02.2013 00:18:51" />
+        <target name="AfterCppClean" started="06.02.2013 00:18:51" />
+        <target name="PGInstrumentedClean" started="06.02.2013 00:18:51" />
+        <target name="CppClean" started="06.02.2013 00:18:51" />
+        <target name="Clean" started="06.02.2013 00:18:51" />
+        <target name="_PrepareForBuild" started="06.02.2013 00:18:51" />
+        <target name="_PrepareForReferenceResolution" started="06.02.2013 00:18:51" />
+        <target name="BeforeResolveReferences" started="06.02.2013 00:18:51" />
+        <target name="ResolveProjectReferences" started="06.02.2013 00:18:51" />
+        <target name="GetFrameworkPaths" started="06.02.2013 00:18:51" />
+        <target name="GetReferenceAssemblyPaths" started="06.02.2013 00:18:51" />
+        <target name="SetBuildDefaultEnvironmentVariables" started="06.02.2013 00:18:51" />
+        <target name="GetResolvedWinMD" started="06.02.2013 00:18:51" />
+        <target name="PlatformPrepareForBuild" started="06.02.2013 00:18:51">
+          <error code="MSB8020" file="C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.Cpp.Platform.targets" line="42" column="5"><![CDATA[The builds tools for Visual Studio 2010 (Platform Toolset = 'v100') cannot be found. To build using the v100 build tools, either click the Project menu or right-click the solution, and then select "Update VC++ Projects...". Install Visual Studio 2010 to build using the Visual Studio 2010 build tools.]]></error>
+        </target>
+      </project>
+      <project targets="Rebuild" file="D:\MediaPortal\Sources\MediaPortal-1\mediaportal\Core.cpp\DXUtil\DXUtil.vcxproj" started="06.02.2013 00:18:51">
+        <target name="_CheckForInvalidConfigurationAndPlatform" started="06.02.2013 00:18:51" />
+        <target name="_PrepareForRebuild" started="06.02.2013 00:18:51" />
+        <target name="BeforeRebuild" started="06.02.2013 00:18:51" />
+        <target name="_PrepareForClean" started="06.02.2013 00:18:51" />
+        <target name="BeforeClean" started="06.02.2013 00:18:51" />
+        <target name="CoreClean" started="06.02.2013 00:18:51">
+          <message importance="Normal"><![CDATA[Das Verzeichnis ".\obj\Debug\" wird erstellt.]]></message>
+        </target>
+        <target name="AssignProjectConfiguration" started="06.02.2013 00:18:51" />
+        <target name="_SplitProjectReferencesByFileExistence" started="06.02.2013 00:18:51" />
+        <target name="CleanReferencedProjects" started="06.02.2013 00:18:51" />
+        <target name="CleanPublishFolder" started="06.02.2013 00:18:51" />
+        <target name="AfterClean" started="06.02.2013 00:18:51" />
+        <target name="BeforeCppClean" started="06.02.2013 00:18:51" />
+        <target name="CoreCppClean" started="06.02.2013 00:18:51" />
+        <target name="AfterCppClean" started="06.02.2013 00:18:51" />
+        <target name="PGInstrumentedClean" started="06.02.2013 00:18:51" />
+        <target name="CppClean" started="06.02.2013 00:18:51" />
+        <target name="Clean" started="06.02.2013 00:18:51" />
+        <target name="_PrepareForBuild" started="06.02.2013 00:18:51" />
+        <target name="_PrepareForReferenceResolution" started="06.02.2013 00:18:51" />
+        <target name="BeforeResolveReferences" started="06.02.2013 00:18:51" />
+        <target name="ResolveProjectReferences" started="06.02.2013 00:18:51" />
+        <target name="GetFrameworkPaths" started="06.02.2013 00:18:51" />
+        <target name="GetReferenceAssemblyPaths" started="06.02.2013 00:18:51" />
+        <target name="SetBuildDefaultEnvironmentVariables" started="06.02.2013 00:18:51" />
+        <target name="GetResolvedWinMD" started="06.02.2013 00:18:51" />
+        <target name="PlatformPrepareForBuild" started="06.02.2013 00:18:51">
+          <error code="MSB8020" file="C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.Cpp.Platform.targets" line="42" column="5"><![CDATA[The builds tools for Visual Studio 2010 (Platform Toolset = 'v100') cannot be found. To build using the v100 build tools, either click the Project menu or right-click the solution, and then select "Update VC++ Projects...". Install Visual Studio 2010 to build using the Visual Studio 2010 build tools.]]></error>
+        </target>
+      </project>
+      <project targets="Rebuild" file="D:\MediaPortal\Sources\MediaPortal-1\mediaportal\Core.cpp\fontEngine\fontEngine.vcxproj" started="06.02.2013 00:18:51">
+        <target name="_CheckForInvalidConfigurationAndPlatform" started="06.02.2013 00:18:51" />
+        <target name="_PrepareForRebuild" started="06.02.2013 00:18:51" />
+        <target name="BeforeRebuild" started="06.02.2013 00:18:51" />
+        <target name="_PrepareForClean" started="06.02.2013 00:18:51" />
+        <target name="BeforeClean" started="06.02.2013 00:18:51" />
+        <target name="CoreClean" started="06.02.2013 00:18:51">
+          <message importance="Normal"><![CDATA[Das Verzeichnis ".\obj\Debug\" wird erstellt.]]></message>
+        </target>
+        <target name="AssignProjectConfiguration" started="06.02.2013 00:18:51" />
+        <target name="_SplitProjectReferencesByFileExistence" started="06.02.2013 00:18:51" />
+        <target name="CleanReferencedProjects" started="06.02.2013 00:18:51" />
+        <target name="CleanPublishFolder" started="06.02.2013 00:18:51" />
+        <target name="AfterClean" started="06.02.2013 00:18:51" />
+        <target name="BeforeCppClean" started="06.02.2013 00:18:51" />
+        <target name="CoreCppClean" started="06.02.2013 00:18:51" />
+        <target name="AfterCppClean" started="06.02.2013 00:18:51" />
+        <target name="PGInstrumentedClean" started="06.02.2013 00:18:51" />
+        <target name="CppClean" started="06.02.2013 00:18:51" />
+        <target name="Clean" started="06.02.2013 00:18:51" />
+        <target name="_PrepareForBuild" started="06.02.2013 00:18:51" />
+        <target name="_PrepareForReferenceResolution" started="06.02.2013 00:18:51" />
+        <target name="BeforeResolveReferences" started="06.02.2013 00:18:51" />
+        <target name="ResolveProjectReferences" started="06.02.2013 00:18:51" />
+        <target name="GetFrameworkPaths" started="06.02.2013 00:18:51" />
+        <target name="GetReferenceAssemblyPaths" started="06.02.2013 00:18:51" />
+        <target name="SetBuildDefaultEnvironmentVariables" started="06.02.2013 00:18:51" />
+        <target name="GetResolvedWinMD" started="06.02.2013 00:18:51" />
+        <target name="PlatformPrepareForBuild" started="06.02.2013 00:18:51">
+          <error code="MSB8020" file="C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.Cpp.Platform.targets" line="42" column="5"><![CDATA[The builds tools for Visual Studio 2010 (Platform Toolset = 'v100') cannot be found. To build using the v100 build tools, either click the Project menu or right-click the solution, and then select "Update VC++ Projects...". Install Visual Studio 2010 to build using the Visual Studio 2010 build tools.]]></error>
+        </target>
+      </project>
+    </target>
+  </project>
+  <warnings>0</warnings>
+  <errors>3</errors>
+  <starttime>06.02.2013 00:18:51</starttime>
+  <endtime>06.02.2013 00:18:51</endtime>
+  <timeelapsed>00:00:00.5980342</timeelapsed>
+</build>

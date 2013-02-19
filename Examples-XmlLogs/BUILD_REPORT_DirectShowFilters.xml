@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<build started="06.02.2013 00:17:05">
+  <project targets="Rebuild" file="D:\MediaPortal\Sources\MediaPortal-1\DirectShowFilters\Filters.sln" started="06.02.2013 00:17:05">
+    <target name="ValidateSolutionConfiguration" started="06.02.2013 00:17:05">
+      <message importance="Normal"><![CDATA[Die Projektmappenkonfiguration "Debug|Win32" wird erstellt.]]></message>
+    </target>
+    <target name="ValidateToolsVersions" started="06.02.2013 00:17:05" />
+    <target name="ValidateProjects" started="06.02.2013 00:17:05">
+      <message importance="Normal"><![CDATA[Das Projekt "BDReader" ist in der Projektmappenkonfiguration "Debug|Win32" nicht zum Erstellen ausgewählt.]]></message>
+      <message importance="Normal"><![CDATA[Das Projekt "MP_DVB_Subtitle_3" ist in der Projektmappenkonfiguration "Debug|Win32" nicht zum Erstellen ausgewählt.]]></message>
+    </target>
+    <target name="Rebuild" started="06.02.2013 00:17:05">
+      <project targets="Rebuild" file="D:\MediaPortal\Sources\MediaPortal-1\DirectShowFilters\DvbCoreUtils\DvbCoreUtils.vcxproj" started="06.02.2013 00:17:06">
+        <target name="_CheckForInvalidConfigurationAndPlatform" started="06.02.2013 00:17:06" />
+        <target name="_PrepareForRebuild" started="06.02.2013 00:17:06" />
+        <target name="BeforeRebuild" started="06.02.2013 00:17:06" />
+        <target name="_PrepareForClean" started="06.02.2013 00:17:06" />
+        <target name="BeforeClean" started="06.02.2013 00:17:06" />
+        <target name="CoreClean" started="06.02.2013 00:17:06">
+          <message importance="Normal"><![CDATA[Das Verzeichnis ".\obj\Debug\" wird erstellt.]]></message>
+        </target>
+        <target name="AssignProjectConfiguration" started="06.02.2013 00:17:06" />
+        <target name="_SplitProjectReferencesByFileExistence" started="06.02.2013 00:17:06" />
+        <target name="CleanReferencedProjects" started="06.02.2013 00:17:06" />
+        <target name="CleanPublishFolder" started="06.02.2013 00:17:06" />
+        <target name="AfterClean" started="06.02.2013 00:17:06" />
+        <target name="BeforeCppClean" started="06.02.2013 00:17:06" />
+        <target name="CoreCppClean" started="06.02.2013 00:17:06" />
+        <target name="AfterCppClean" started="06.02.2013 00:17:06" />
+        <target name="PGInstrumentedClean" started="06.02.2013 00:17:06" />
+        <target name="CppClean" started="06.02.2013 00:17:06" />
+        <target name="Clean" started="06.02.2013 00:17:06" />
+        <target name="_PrepareForBuild" started="06.02.2013 00:17:06" />
+        <target name="_PrepareForReferenceResolution" started="06.02.2013 00:17:06" />
+        <target name="BeforeResolveReferences" started="06.02.2013 00:17:06" />
+        <target name="ResolveProjectReferences" started="06.02.2013 00:17:06" />
+        <target name="GetFrameworkPaths" started="06.02.2013 00:17:06" />
+        <target name="GetReferenceAssemblyPaths" started="06.02.2013 00:17:06" />
+        <target name="SetBuildDefaultEnvironmentVariables" started="06.02.2013 00:17:06" />
+        <target name="GetResolvedWinMD" started="06.02.2013 00:17:06" />
+        <target name="PlatformPrepareForBuild" started="06.02.2013 00:17:06">
+          <error code="MSB8020" file="C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.Cpp.Platform.targets" line="42" column="5"><![CDATA[The builds tools for Visual Studio 2010 (Platform Toolset = 'v100') cannot be found. To build using the v100 build tools, either click the Project menu or right-click the solution, and then select "Update VC++ Projects...". Install Visual Studio 2010 to build using the Visual Studio 2010 build tools.]]></error>
+        </target>
+      </project>
+      <project targets="Rebuild" file="D:\MediaPortal\Sources\MediaPortal-1\DirectShowFilters\TsWriter\MPTSWriter.vcxproj" started="06.02.2013 00:17:06">
+        <target name="_CheckForInvalidConfigurationAndPlatform" started="06.02.2013 00:17:06" />
+        <target name="_PrepareForRebuild" started="06.02.2013 00:17:06" />
+        <target name="BeforeRebuild" started="06.02.2013 00:17:06" />
+        <target name="_PrepareForClean" started="06.02.2013 00:17:06" />
+        <target name="BeforeClean" started="06.02.2013 00:17:06" />
+        <target name="CoreClean" started="06.02.2013 00:17:06">
+          <message importance="Normal"><![CDATA[Das Verzeichnis ".\obj\Debug\" wird erstellt.]]></message>
+        </target>
+        <target name="AssignProjectConfiguration" started="06.02.2013 00:17:06" />
+        <target name="_SplitProjectReferencesByFileExistence" started="06.02.2013 00:17:06" />
+        <target name="CleanReferencedProjects" started="06.02.2013 00:17:06">
+          <project targets="Clean" file="D:\MediaPortal\Sources\MediaPortal-1\DirectShowFilters\DvbCoreUtils\DvbCoreUtils.vcxproj" started="06.02.2013 00:17:06" />
+        </target>
+        <target name="CleanPublishFolder" started="06.02.2013 00:17:06" />
+        <target name="AfterClean" started="06.02.2013 00:17:06" />
+        <target name="BeforeCppClean" started="06.02.2013 00:17:06" />
+        <target name="CoreCppClean" started="06.02.2013 00:17:06" />
+        <target name="AfterCppClean" started="06.02.2013 00:17:06" />
+        <target name="PGInstrumentedClean" started="06.02.2013 00:17:06" />
+        <target name="CppClean" started="06.02.2013 00:17:06" />
+        <target name="Clean" started="06.02.2013 00:17:06" />
+        <target name="_PrepareForBuild" started="06.02.2013 00:17:06" />
+        <target name="_PrepareForReferenceResolution" started="06.02.2013 00:17:06" />
+        <target name="BeforeResolveReferences" started="06.02.2013 00:17:06" />
+        <target name="_RemoveNameMetadataFromProjectReferenceItems" started="06.02.2013 00:17:06" />
+        <target name="ResolveProjectReferences" started="06.02.2013 00:17:06">
+          <project file="D:\MediaPortal\Sources\MediaPortal-1\DirectShowFilters\DvbCoreUtils\DvbCoreUtils.vcxproj" started="06.02.2013 00:17:06" />
+        </target>
+      </project>
+      <project targets="Rebuild" file="D:\MediaPortal\Sources\MediaPortal-1\DirectShowFilters\TsReader\TsReader.vcxproj" started="06.02.2013 00:17:06">
+        <target name="_CheckForInvalidConfigurationAndPlatform" started="06.02.2013 00:17:06" />
+        <target name="_PrepareForRebuild" started="06.02.2013 00:17:06" />
+        <target name="BeforeRebuild" started="06.02.2013 00:17:06" />
+        <target name="_PrepareForClean" started="06.02.2013 00:17:06" />
+        <target name="BeforeClean" started="06.02.2013 00:17:06" />
+        <target name="CoreClean" started="06.02.2013 00:17:06">
+          <message importance="Normal"><![CDATA[Das Verzeichnis ".\obj\Debug\" wird erstellt.]]></message>
+        </target>
+        <target name="AssignProjectConfiguration" started="06.02.2013 00:17:06" />
+        <target name="_SplitProjectReferencesByFileExistence" started="06.02.2013 00:17:06" />
+        <target name="CleanReferencedProjects" started="06.02.2013 00:17:06">
+          <project targets="Clean" file="D:\MediaPortal\Sources\MediaPortal-1\DirectShowFilters\DvbCoreUtils\DvbCoreUtils.vcxproj" started="06.02.2013 00:17:06" />
+          <project targets="Clean" file="D:\MediaPortal\Sources\MediaPortal-1\DirectShowFilters\LiveMedia555\LiveMedia555.vcxproj" started="06.02.2013 00:17:06">
+            <target name="_CheckForInvalidConfigurationAndPlatform" started="06.02.2013 00:17:06" />
+            <target name="_PrepareForClean" started="06.02.2013 00:17:06" />
+            <target name="BeforeClean" started="06.02.2013 00:17:06" />
+            <target name="CoreClean" started="06.02.2013 00:17:06">
+              <message importance="Normal"><![CDATA[Das Verzeichnis ".\obj\Debug\" wird erstellt.]]></message>
+            </target>
+            <target name="AssignProjectConfiguration" started="06.02.2013 00:17:06" />
+            <target name="_SplitProjectReferencesByFileExistence" started="06.02.2013 00:17:06" />
+            <target name="CleanReferencedProjects" started="06.02.2013 00:17:06" />
+            <target name="CleanPublishFolder" started="06.02.2013 00:17:06" />
+            <target name="AfterClean" started="06.02.2013 00:17:06" />
+            <target name="BeforeCppClean" started="06.02.2013 00:17:06" />
+            <target name="CoreCppClean" started="06.02.2013 00:17:06" />
+            <target name="AfterCppClean" started="06.02.2013 00:17:06" />
+            <target name="PGInstrumentedClean" started="06.02.2013 00:17:06" />
+            <target name="CppClean" started="06.02.2013 00:17:06" />
+            <target name="Clean" started="06.02.2013 00:17:06" />
+          </project>
+        </target>
+        <target name="CleanPublishFolder" started="06.02.2013 00:17:06" />
+        <target name="AfterClean" started="06.02.2013 00:17:06" />
+        <target name="BeforeCppClean" started="06.02.2013 00:17:06" />
+        <target name="CoreCppClean" started="06.02.2013 00:17:06" />
+        <target name="AfterCppClean" started="06.02.2013 00:17:06" />
+        <target name="PGInstrumentedClean" started="06.02.2013 00:17:06" />
+        <target name="CppClean" started="06.02.2013 00:17:06" />
+        <target name="Clean" started="06.02.2013 00:17:06" />
+        <target name="_PrepareForBuild" started="06.02.2013 00:17:06" />
+        <target name="_PrepareForReferenceResolution" started="06.02.2013 00:17:06" />
+        <target name="BeforeResolveReferences" started="06.02.2013 00:17:06" />
+        <target name="_RemoveNameMetadataFromProjectReferenceItems" started="06.02.2013 00:17:06" />
+        <target name="ResolveProjectReferences" started="06.02.2013 00:17:06">
+          <project file="D:\MediaPortal\Sources\MediaPortal-1\DirectShowFilters\DvbCoreUtils\DvbCoreUtils.vcxproj" started="06.02.2013 00:17:06" />
+          <project file="D:\MediaPortal\Sources\MediaPortal-1\DirectShowFilters\LiveMedia555\LiveMedia555.vcxproj" started="06.02.2013 00:17:06">
+            <target name="_PrepareForBuild" started="06.02.2013 00:17:06" />
+            <target name="_PrepareForReferenceResolution" started="06.02.2013 00:17:06" />
+            <target name="BeforeResolveReferences" started="06.02.2013 00:17:06" />
+            <target name="ResolveProjectReferences" started="06.02.2013 00:17:06" />
+            <target name="GetFrameworkPaths" started="06.02.2013 00:17:06" />
+            <target name="GetReferenceAssemblyPaths" started="06.02.2013 00:17:06" />
+            <target name="SetBuildDefaultEnvironmentVariables" started="06.02.2013 00:17:06" />
+            <target name="GetResolvedWinMD" started="06.02.2013 00:17:06" />
+            <target name="PlatformPrepareForBuild" started="06.02.2013 00:17:06">
+              <error code="MSB8020" file="C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.Cpp.Platform.targets" line="42" column="5"><![CDATA[The builds tools for Visual Studio 2010 (Platform Toolset = 'v100') cannot be found. To build using the v100 build tools, either click the Project menu or right-click the solution, and then select "Update VC++ Projects...". Install Visual Studio 2010 to build using the Visual Studio 2010 build tools.]]></error>
+            </target>
+          </project>
+        </target>
+      </project>
+      <project targets="Rebuild" file="D:\MediaPortal\Sources\MediaPortal-1\DirectShowFilters\StreamingServer\StreamingServer.vcxproj" started="06.02.2013 00:17:06">
+        <target name="_CheckForInvalidConfigurationAndPlatform" started="06.02.2013 00:17:06" />
+        <target name="_PrepareForRebuild" started="06.02.2013 00:17:06" />
+        <target name="BeforeRebuild" started="06.02.2013 00:17:06" />
+        <target name="_PrepareForClean" started="06.02.2013 00:17:06" />
+        <target name="BeforeClean" started="06.02.2013 00:17:06" />
+        <target name="CoreClean" started="06.02.2013 00:17:06">
+          <message importance="Normal"><![CDATA[Das Verzeichnis ".\obj\Debug\" wird erstellt.]]></message>
+        </target>
+        <target name="AssignProjectConfiguration" started="06.02.2013 00:17:06" />
+        <target name="_SplitProjectReferencesByFileExistence" started="06.02.2013 00:17:06" />
+        <target name="CleanReferencedProjects" started="06.02.2013 00:17:06">
+          <project targets="Clean" file="D:\MediaPortal\Sources\MediaPortal-1\DirectShowFilters\LiveMedia555\LiveMedia555.vcxproj" started="06.02.2013 00:17:06" />
+        </target>
+        <target name="CleanPublishFolder" started="06.02.2013 00:17:06" />
+        <target name="AfterClean" started="06.02.2013 00:17:06" />
+        <target name="BeforeCppClean" started="06.02.2013 00:17:06" />
+        <target name="CoreCppClean" started="06.02.2013 00:17:06" />
+        <target name="AfterCppClean" started="06.02.2013 00:17:06" />
+        <target name="PGInstrumentedClean" started="06.02.2013 00:17:06" />
+        <target name="CppClean" started="06.02.2013 00:17:06" />
+        <target name="Clean" started="06.02.2013 00:17:06" />
+        <target name="_PrepareForBuild" started="06.02.2013 00:17:06" />
+        <target name="_PrepareForReferenceResolution" started="06.02.2013 00:17:06" />
+        <target name="BeforeResolveReferences" started="06.02.2013 00:17:06" />
+        <target name="_RemoveNameMetadataFromProjectReferenceItems" started="06.02.2013 00:17:06" />
+        <target name="ResolveProjectReferences" started="06.02.2013 00:17:06">
+          <project file="D:\MediaPortal\Sources\MediaPortal-1\DirectShowFilters\LiveMedia555\LiveMedia555.vcxproj" started="06.02.2013 00:17:06" />
+        </target>
+      </project>
+      <project targets="Rebuild" file="D:\MediaPortal\Sources\MediaPortal-1\DirectShowFilters\MPWriter\MPWriter.vcxproj" started="06.02.2013 00:17:06">
+        <target name="_CheckForInvalidConfigurationAndPlatform" started="06.02.2013 00:17:06" />
+        <target name="_PrepareForRebuild" started="06.02.2013 00:17:06" />
+        <target name="BeforeRebuild" started="06.02.2013 00:17:06" />
+        <target name="_PrepareForClean" started="06.02.2013 00:17:06" />
+        <target name="BeforeClean" started="06.02.2013 00:17:06" />
+        <target name="CoreClean" started="06.02.2013 00:17:06">
+          <message importance="Normal"><![CDATA[Das Verzeichnis ".\obj\Debug\" wird erstellt.]]></message>
+        </target>
+        <target name="AssignProjectConfiguration" started="06.02.2013 00:17:06" />
+        <target name="_SplitProjectReferencesByFileExistence" started="06.02.2013 00:17:06" />
+        <target name="CleanReferencedProjects" started="06.02.2013 00:17:06">
+          <project targets="Clean" file="D:\MediaPortal\Sources\MediaPortal-1\DirectShowFilters\LiveMedia555\LiveMedia555.vcxproj" started="06.02.2013 00:17:06" />
+        </target>
+        <target name="CleanPublishFolder" started="06.02.2013 00:17:06" />
+        <target name="AfterClean" started="06.02.2013 00:17:06" />
+        <target name="BeforeCppClean" started="06.02.2013 00:17:06" />
+        <target name="CoreCppClean" started="06.02.2013 00:17:06" />
+        <target name="AfterCppClean" started="06.02.2013 00:17:06" />
+        <target name="PGInstrumentedClean" started="06.02.2013 00:17:06" />
+        <target name="CppClean" started="06.02.2013 00:17:06" />
+        <target name="Clean" started="06.02.2013 00:17:06" />
+        <target name="_PrepareForBuild" started="06.02.2013 00:17:06" />
+        <target name="_PrepareForReferenceResolution" started="06.02.2013 00:17:06" />
+        <target name="BeforeResolveReferences" started="06.02.2013 00:17:06" />
+        <target name="_RemoveNameMetadataFromProjectReferenceItems" started="06.02.2013 00:17:06" />
+        <target name="ResolveProjectReferences" started="06.02.2013 00:17:06">
+          <project file="D:\MediaPortal\Sources\MediaPortal-1\DirectShowFilters\LiveMedia555\LiveMedia555.vcxproj" started="06.02.2013 00:17:06" />
+        </target>
+      </project>
+      <project targets="Rebuild" file="D:\MediaPortal\Sources\MediaPortal-1\DirectShowFilters\LiveMedia555\LiveMedia555.vcxproj" started="06.02.2013 00:17:06">
+        <target name="_PrepareForRebuild" started="06.02.2013 00:17:06" />
+        <target name="BeforeRebuild" started="06.02.2013 00:17:06" />
+        <target name="AfterRebuild" started="06.02.2013 00:17:06" />
+        <target name="Rebuild" started="06.02.2013 00:17:06" />
+      </project>
+      <project targets="Rebuild" file="D:\MediaPortal\Sources\MediaPortal-1\DirectShowFilters\dvblib\dvblib.vcxproj" started="06.02.2013 00:17:06">
+        <target name="_CheckForInvalidConfigurationAndPlatform" started="06.02.2013 00:17:06" />
+        <target name="_PrepareForRebuild" started="06.02.2013 00:17:06" />
+        <target name="BeforeRebuild" started="06.02.2013 00:17:06" />
+        <target name="_PrepareForClean" started="06.02.2013 00:17:06" />
+        <target name="BeforeClean" started="06.02.2013 00:17:06" />
+        <target name="CoreClean" started="06.02.2013 00:17:06">
+          <message importance="Normal"><![CDATA[Das Verzeichnis ".\obj\Debug\" wird erstellt.]]></message>
+        </target>
+        <target name="AssignProjectConfiguration" started="06.02.2013 00:17:07" />
+        <target name="_SplitProjectReferencesByFileExistence" started="06.02.2013 00:17:07" />
+        <target name="CleanReferencedProjects" started="06.02.2013 00:17:07" />
+        <target name="CleanPublishFolder" started="06.02.2013 00:17:07" />
+        <target name="AfterClean" started="06.02.2013 00:17:07" />
+        <target name="BeforeCppClean" started="06.02.2013 00:17:07" />
+        <target name="CoreCppClean" started="06.02.2013 00:17:07" />
+        <target name="AfterCppClean" started="06.02.2013 00:17:07" />
+        <target name="PGInstrumentedClean" started="06.02.2013 00:17:07" />
+        <target name="CppClean" started="06.02.2013 00:17:07" />
+        <target name="Clean" started="06.02.2013 00:17:07" />
+        <target name="_PrepareForBuild" started="06.02.2013 00:17:07" />
+        <target name="_PrepareForReferenceResolution" started="06.02.2013 00:17:07" />
+        <target name="BeforeResolveReferences" started="06.02.2013 00:17:07" />
+        <target name="ResolveProjectReferences" started="06.02.2013 00:17:07" />
+        <target name="GetFrameworkPaths" started="06.02.2013 00:17:07" />
+        <target name="GetReferenceAssemblyPaths" started="06.02.2013 00:17:07" />
+        <target name="SetBuildDefaultEnvironmentVariables" started="06.02.2013 00:17:07" />
+        <target name="GetResolvedWinMD" started="06.02.2013 00:17:07" />
+        <target name="PlatformPrepareForBuild" started="06.02.2013 00:17:07">
+          <error code="MSB8020" file="C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.Cpp.Platform.targets" line="42" column="5"><![CDATA[The builds tools for Visual Studio 2010 (Platform Toolset = 'v100') cannot be found. To build using the v100 build tools, either click the Project menu or right-click the solution, and then select "Update VC++ Projects...". Install Visual Studio 2010 to build using the Visual Studio 2010 build tools.]]></error>
+        </target>
+      </project>
+      <project targets="Rebuild" file="D:\MediaPortal\Sources\MediaPortal-1\DirectShowFilters\TsMuxer\TsMuxer.vcxproj" started="06.02.2013 00:17:07">
+        <target name="_CheckForInvalidConfigurationAndPlatform" started="06.02.2013 00:17:07" />
+        <target name="_PrepareForRebuild" started="06.02.2013 00:17:07" />
+        <target name="BeforeRebuild" started="06.02.2013 00:17:07" />
+        <target name="_PrepareForClean" started="06.02.2013 00:17:07" />
+        <target name="BeforeClean" started="06.02.2013 00:17:07" />
+        <target name="CoreClean" started="06.02.2013 00:17:07">
+          <message importance="Normal"><![CDATA[Das Verzeichnis ".\obj\Debug\" wird erstellt.]]></message>
+        </target>
+        <target name="AssignProjectConfiguration" started="06.02.2013 00:17:07" />
+        <target name="_SplitProjectReferencesByFileExistence" started="06.02.2013 00:17:07" />
+        <target name="CleanReferencedProjects" started="06.02.2013 00:17:07">
+          <project targets="Clean" file="D:\MediaPortal\Sources\MediaPortal-1\DirectShowFilters\LiveMedia555\LiveMedia555.vcxproj" started="06.02.2013 00:17:07" />
+        </target>
+        <target name="CleanPublishFolder" started="06.02.2013 00:17:07" />
+        <target name="AfterClean" started="06.02.2013 00:17:07" />
+        <target name="BeforeCppClean" started="06.02.2013 00:17:07" />
+        <target name="CoreCppClean" started="06.02.2013 00:17:07" />
+        <target name="AfterCppClean" started="06.02.2013 00:17:07" />
+        <target name="PGInstrumentedClean" started="06.02.2013 00:17:07" />
+        <target name="CppClean" started="06.02.2013 00:17:07" />
+        <target name="Clean" started="06.02.2013 00:17:07" />
+        <target name="_PrepareForBuild" started="06.02.2013 00:17:07" />
+        <target name="_PrepareForReferenceResolution" started="06.02.2013 00:17:07" />
+        <target name="BeforeResolveReferences" started="06.02.2013 00:17:07" />
+        <target name="_RemoveNameMetadataFromProjectReferenceItems" started="06.02.2013 00:17:07" />
+        <target name="ResolveProjectReferences" started="06.02.2013 00:17:07">
+          <project file="D:\MediaPortal\Sources\MediaPortal-1\DirectShowFilters\LiveMedia555\LiveMedia555.vcxproj" started="06.02.2013 00:17:07" />
+        </target>
+      </project>
+      <project targets="Rebuild" file="D:\MediaPortal\Sources\MediaPortal-1\DirectShowFilters\DXErr9\dxerr9.vcxproj" started="06.02.2013 00:17:07">
+        <target name="_CheckForInvalidConfigurationAndPlatform" started="06.02.2013 00:17:07" />
+        <target name="_PrepareForRebuild" started="06.02.2013 00:17:07" />
+        <target name="BeforeRebuild" started="06.02.2013 00:17:07" />
+        <target name="_PrepareForClean" started="06.02.2013 00:17:07" />
+        <target name="BeforeClean" started="06.02.2013 00:17:07" />
+        <target name="CoreClean" started="06.02.2013 00:17:07">
+          <message importance="Normal"><![CDATA[Das Verzeichnis ".\obj\Debug\" wird erstellt.]]></message>
+        </target>
+        <target name="AssignProjectConfiguration" started="06.02.2013 00:17:07" />
+        <target name="_SplitProjectReferencesByFileExistence" started="06.02.2013 00:17:07" />
+        <target name="CleanReferencedProjects" started="06.02.2013 00:17:07" />
+        <target name="CleanPublishFolder" started="06.02.2013 00:17:07" />
+        <target name="AfterClean" started="06.02.2013 00:17:07" />
+        <target name="BeforeCppClean" started="06.02.2013 00:17:07" />
+        <target name="CoreCppClean" started="06.02.2013 00:17:07" />
+        <target name="AfterCppClean" started="06.02.2013 00:17:07" />
+        <target name="PGInstrumentedClean" started="06.02.2013 00:17:07" />
+        <target name="CppClean" started="06.02.2013 00:17:07" />
+        <target name="Clean" started="06.02.2013 00:17:07" />
+        <target name="_PrepareForBuild" started="06.02.2013 00:17:07" />
+        <target name="_PrepareForReferenceResolution" started="06.02.2013 00:17:07" />
+        <target name="BeforeResolveReferences" started="06.02.2013 00:17:07" />
+        <target name="ResolveProjectReferences" started="06.02.2013 00:17:07" />
+        <target name="GetFrameworkPaths" started="06.02.2013 00:17:07" />
+        <target name="GetReferenceAssemblyPaths" started="06.02.2013 00:17:07" />
+        <target name="SetBuildDefaultEnvironmentVariables" started="06.02.2013 00:17:07" />
+        <target name="GetResolvedWinMD" started="06.02.2013 00:17:07" />
+        <target name="PlatformPrepareForBuild" started="06.02.2013 00:17:07">
+          <error code="MSB8020" file="C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.Cpp.Platform.targets" line="42" column="5"><![CDATA[The builds tools for Visual Studio 2010 (Platform Toolset = 'v100') cannot be found. To build using the v100 build tools, either click the Project menu or right-click the solution, and then select "Update VC++ Projects...". Install Visual Studio 2010 to build using the Visual Studio 2010 build tools.]]></error>
+        </target>
+      </project>
+      <project targets="Rebuild" file="D:\MediaPortal\Sources\MediaPortal-1\DirectShowFilters\MPIPTVSource\MPIPTVSource.vcxproj" started="06.02.2013 00:17:07">
+        <target name="_CheckForInvalidConfigurationAndPlatform" started="06.02.2013 00:17:07" />
+        <target name="_PrepareForRebuild" started="06.02.2013 00:17:07" />
+        <target name="BeforeRebuild" started="06.02.2013 00:17:07" />
+        <target name="_PrepareForClean" started="06.02.2013 00:17:07" />
+        <target name="BeforeClean" started="06.02.2013 00:17:07" />
+        <target name="CoreClean" started="06.02.2013 00:17:07">
+          <message importance="Normal"><![CDATA[Das Verzeichnis ".\obj\Debug\" wird erstellt.]]></message>
+        </target>
+        <target name="AssignProjectConfiguration" started="06.02.2013 00:17:07" />
+        <target name="_SplitProjectReferencesByFileExistence" started="06.02.2013 00:17:07" />
+        <target name="CleanReferencedProjects" started="06.02.2013 00:17:07" />
+        <target name="CleanPublishFolder" started="06.02.2013 00:17:07" />
+        <target name="AfterClean" started="06.02.2013 00:17:07" />
+        <target name="BeforeCppClean" started="06.02.2013 00:17:07" />
+        <target name="CoreCppClean" started="06.02.2013 00:17:07" />
+        <target name="AfterCppClean" started="06.02.2013 00:17:07" />
+        <target name="PGInstrumentedClean" started="06.02.2013 00:17:07" />
+        <target name="CppClean" started="06.02.2013 00:17:07" />
+        <target name="Clean" started="06.02.2013 00:17:07" />
+        <target name="_PrepareForBuild" started="06.02.2013 00:17:07" />
+        <target name="_PrepareForReferenceResolution" started="06.02.2013 00:17:07" />
+        <target name="BeforeResolveReferences" started="06.02.2013 00:17:07" />
+        <target name="ResolveProjectReferences" started="06.02.2013 00:17:07" />
+        <target name="GetFrameworkPaths" started="06.02.2013 00:17:07" />
+        <target name="GetReferenceAssemblyPaths" started="06.02.2013 00:17:07" />
+        <target name="SetBuildDefaultEnvironmentVariables" started="06.02.2013 00:17:07" />
+        <target name="GetResolvedWinMD" started="06.02.2013 00:17:07" />
+        <target name="PlatformPrepareForBuild" started="06.02.2013 00:17:07">
+          <error code="MSB8020" file="C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.Cpp.Platform.targets" line="42" column="5"><![CDATA[The builds tools for Visual Studio 2010 (Platform Toolset = 'v100') cannot be found. To build using the v100 build tools, either click the Project menu or right-click the solution, and then select "Update VC++ Projects...". Install Visual Studio 2010 to build using the Visual Studio 2010 build tools.]]></error>
+        </target>
+      </project>
+      <project targets="Rebuild" file="D:\MediaPortal\Sources\MediaPortal-1\mediaportal\Core.cpp\mpc-hc_subs\src\BaseClasses\baseclasses.vcxproj" started="06.02.2013 00:17:07">
+        <target name="_CheckForInvalidConfigurationAndPlatform" started="06.02.2013 00:17:07" />
+        <target name="_PrepareForRebuild" started="06.02.2013 00:17:07" />
+        <target name="BeforeRebuild" started="06.02.2013 00:17:07" />
+        <target name="_PrepareForClean" started="06.02.2013 00:17:07" />
+        <target name="BeforeClean" started="06.02.2013 00:17:07" />
+        <target name="CoreClean" started="06.02.2013 00:17:07">
+          <message importance="Normal"><![CDATA[Das Verzeichnis "D:\MediaPortal\Sources\MediaPortal-1\DirectShowFilters\mpc-hc_subs\bin\obj\Debug_Win32\baseclasses\" wird erstellt.]]></message>
+        </target>
+        <target name="AssignProjectConfiguration" started="06.02.2013 00:17:07" />
+        <target name="_SplitProjectReferencesByFileExistence" started="06.02.2013 00:17:07" />
+        <target name="CleanReferencedProjects" started="06.02.2013 00:17:07" />
+        <target name="CleanPublishFolder" started="06.02.2013 00:17:07" />
+        <target name="AfterClean" started="06.02.2013 00:17:07" />
+        <target name="BeforeCppClean" started="06.02.2013 00:17:07" />
+        <target name="CoreCppClean" started="06.02.2013 00:17:07" />
+        <target name="AfterCppClean" started="06.02.2013 00:17:07" />
+        <target name="PGInstrumentedClean" started="06.02.2013 00:17:07" />
+        <target name="CppClean" started="06.02.2013 00:17:07" />
+        <target name="Clean" started="06.02.2013 00:17:07" />
+        <target name="_PrepareForBuild" started="06.02.2013 00:17:07" />
+        <target name="_PrepareForReferenceResolution" started="06.02.2013 00:17:07" />
+        <target name="BeforeResolveReferences" started="06.02.2013 00:17:07" />
+        <target name="ResolveProjectReferences" started="06.02.2013 00:17:07" />
+        <target name="GetFrameworkPaths" started="06.02.2013 00:17:07" />
+        <target name="GetReferenceAssemblyPaths" started="06.02.2013 00:17:07" />
+        <target name="SetBuildDefaultEnvironmentVariables" started="06.02.2013 00:17:07" />
+        <target name="GetResolvedWinMD" started="06.02.2013 00:17:07" />
+        <target name="PlatformPrepareForBuild" started="06.02.2013 00:17:07">
+          <error code="MSB8020" file="C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.Cpp.Platform.targets" line="42" column="5"><![CDATA[The builds tools for Visual Studio 2010 (Platform Toolset = 'v100') cannot be found. To build using the v100 build tools, either click the Project menu or right-click the solution, and then select "Update VC++ Projects...". Install Visual Studio 2010 to build using the Visual Studio 2010 build tools.]]></error>
+        </target>
+      </project>
+      <project targets="Rebuild" file="D:\MediaPortal\Sources\MediaPortal-1\mediaportal\Core.cpp\mpc-hc_subs\src\dsutil\DSUtil.vcxproj" started="06.02.2013 00:17:07">
+        <target name="_CheckForInvalidConfigurationAndPlatform" started="06.02.2013 00:17:07" />
+        <target name="_PrepareForRebuild" started="06.02.2013 00:17:07" />
+        <target name="BeforeRebuild" started="06.02.2013 00:17:07" />
+        <target name="_PrepareForClean" started="06.02.2013 00:17:07" />
+        <target name="BeforeClean" started="06.02.2013 00:17:07" />
+        <target name="CoreClean" started="06.02.2013 00:17:07">
+          <message importance="Normal"><![CDATA[Das Verzeichnis "D:\MediaPortal\Sources\MediaPortal-1\DirectShowFilters\mpc-hc_subs\bin\obj\Debug_Win32\DSUtil\" wird erstellt.]]></message>
+        </target>
+        <target name="AssignProjectConfiguration" started="06.02.2013 00:17:07" />
+        <target name="_SplitProjectReferencesByFileExistence" started="06.02.2013 00:17:07" />
+        <target name="CleanReferencedProjects" started="06.02.2013 00:17:07">
+          <project targets="Clean" file="D:\MediaPortal\Sources\MediaPortal-1\mediaportal\Core.cpp\mpc-hc_subs\src\BaseClasses\baseclasses.vcxproj" started="06.02.2013 00:17:07" />
+          <project targets="Clean" file="D:\MediaPortal\Sources\MediaPortal-1\mediaportal\Core.cpp\mpc-hc_subs\src\thirdparty\VirtualDub\system\system.vcxproj" started="06.02.2013 00:17:07">
+            <target name="_CheckForInvalidConfigurationAndPlatform" started="06.02.2013 00:17:07" />
+            <target name="_PrepareForClean" started="06.02.2013 00:17:07" />
+            <target name="BeforeClean" started="06.02.2013 00:17:07" />
+            <target name="CoreClean" started="06.02.2013 00:17:07">
+              <message importance="Normal"><![CDATA[Das Verzeichnis "D:\MediaPortal\Sources\MediaPortal-1\DirectShowFilters\mpc-hc_subs\bin\obj\Debug_Win32\system\" wird erstellt.]]></message>
+            </target>
+            <target name="AssignProjectConfiguration" started="06.02.2013 00:17:07" />
+            <target name="_SplitProjectReferencesByFileExistence" started="06.02.2013 00:17:07" />
+            <target name="CleanReferencedProjects" started="06.02.2013 00:17:07" />
+            <target name="CleanPublishFolder" started="06.02.2013 00:17:07" />
+            <target name="AfterClean" started="06.02.2013 00:17:07" />
+            <target name="BeforeCppClean" started="06.02.2013 00:17:07" />
+            <target name="CoreCppClean" started="06.02.2013 00:17:07" />
+            <target name="AfterCppClean" started="06.02.2013 00:17:07" />
+            <target name="PGInstrumentedClean" started="06.02.2013 00:17:07" />
+            <target name="CppClean" started="06.02.2013 00:17:07" />
+            <target name="Clean" started="06.02.2013 00:17:07" />
+          </project>
+        </target>
+        <target name="CleanPublishFolder" started="06.02.2013 00:17:07" />
+        <target name="AfterClean" started="06.02.2013 00:17:07" />
+        <target name="BeforeCppClean" started="06.02.2013 00:17:07" />
+        <target name="CoreCppClean" started="06.02.2013 00:17:07" />
+        <target name="AfterCppClean" started="06.02.2013 00:17:07" />
+        <target name="PGInstrumentedClean" started="06.02.2013 00:17:07" />
+        <target name="CppClean" started="06.02.2013 00:17:07" />
+        <target name="Clean" started="06.02.2013 00:17:07" />
+        <target name="_PrepareForBuild" started="06.02.2013 00:17:07" />
+        <target name="_PrepareForReferenceResolution" started="06.02.2013 00:17:07" />
+        <target name="BeforeResolveReferences" started="06.02.2013 00:17:07" />
+        <target name="_RemoveNameMetadataFromProjectReferenceItems" started="06.02.2013 00:17:07" />
+        <target name="ResolveProjectReferences" started="06.02.2013 00:17:07">
+          <project file="D:\MediaPortal\Sources\MediaPortal-1\mediaportal\Core.cpp\mpc-hc_subs\src\BaseClasses\baseclasses.vcxproj" started="06.02.2013 00:17:07" />
+          <project file="D:\MediaPortal\Sources\MediaPortal-1\mediaportal\Core.cpp\mpc-hc_subs\src\thirdparty\VirtualDub\system\system.vcxproj" started="06.02.2013 00:17:07">
+            <target name="_PrepareForBuild" started="06.02.2013 00:17:07" />
+            <target name="_PrepareForReferenceResolution" started="06.02.2013 00:17:07" />
+            <target name="BeforeResolveReferences" started="06.02.2013 00:17:07" />
+            <target name="ResolveProjectReferences" started="06.02.2013 00:17:07" />
+            <target name="GetFrameworkPaths" started="06.02.2013 00:17:07" />
+            <target name="GetReferenceAssemblyPaths" started="06.02.2013 00:17:07" />
+            <target name="SetBuildDefaultEnvironmentVariables" started="06.02.2013 00:17:07" />
+            <target name="GetResolvedWinMD" started="06.02.2013 00:17:07" />
+            <target name="PlatformPrepareForBuild" started="06.02.2013 00:17:07">
+              <error code="MSB8020" file="C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.Cpp.Platform.targets" line="42" column="5"><![CDATA[The builds tools for Visual Studio 2010 (Platform Toolset = 'v100') cannot be found. To build using the v100 build tools, either click the Project menu or right-click the solution, and then select "Update VC++ Projects...". Install Visual Studio 2010 to build using the Visual Studio 2010 build tools.]]></error>
+            </target>
+          </project>
+        </target>
+      </project>
+      <project targets="Rebuild" file="D:\MediaPortal\Sources\MediaPortal-1\mediaportal\Core.cpp\mpc-hc_subs\src\thirdparty\VirtualDub\system\system.vcxproj" started="06.02.2013 00:17:07">
+        <target name="_PrepareForRebuild" started="06.02.2013 00:17:07" />
+        <target name="BeforeRebuild" started="06.02.2013 00:17:07" />
+        <target name="AfterRebuild" started="06.02.2013 00:17:07" />
+        <target name="Rebuild" started="06.02.2013 00:17:07" />
+      </project>
+      <project targets="Rebuild" file="D:\MediaPortal\Sources\MediaPortal-1\DirectShowFilters\MPAudioRenderer\AudioRenderer.vcxproj" started="06.02.2013 00:17:07">
+        <target name="_CheckForInvalidConfigurationAndPlatform" started="06.02.2013 00:17:07" />
+        <target name="_PrepareForRebuild" started="06.02.2013 00:17:07" />
+        <target name="BeforeRebuild" started="06.02.2013 00:17:07" />
+        <target name="_PrepareForClean" started="06.02.2013 00:17:07" />
+        <target name="BeforeClean" started="06.02.2013 00:17:07" />
+        <target name="CoreClean" started="06.02.2013 00:17:07">
+          <message importance="Normal"><![CDATA[Das Verzeichnis ".\obj\Debug\" wird erstellt.]]></message>
+        </target>
+        <target name="AssignProjectConfiguration" started="06.02.2013 00:17:07" />
+        <target name="_SplitProjectReferencesByFileExistence" started="06.02.2013 00:17:07" />
+        <target name="CleanReferencedProjects" started="06.02.2013 00:17:07" />
+        <target name="CleanPublishFolder" started="06.02.2013 00:17:07" />
+        <target name="AfterClean" started="06.02.2013 00:17:07" />
+        <target name="BeforeCppClean" started="06.02.2013 00:17:07" />
+        <target name="CoreCppClean" started="06.02.2013 00:17:07" />
+        <target name="AfterCppClean" started="06.02.2013 00:17:07" />
+        <target name="PGInstrumentedClean" started="06.02.2013 00:17:07" />
+        <target name="CppClean" started="06.02.2013 00:17:07" />
+        <target name="Clean" started="06.02.2013 00:17:07" />
+        <target name="_PrepareForBuild" started="06.02.2013 00:17:07" />
+        <target name="_PrepareForReferenceResolution" started="06.02.2013 00:17:07" />
+        <target name="BeforeResolveReferences" started="06.02.2013 00:17:07" />
+        <target name="ResolveProjectReferences" started="06.02.2013 00:17:07" />
+        <target name="GetFrameworkPaths" started="06.02.2013 00:17:07" />
+        <target name="GetReferenceAssemblyPaths" started="06.02.2013 00:17:07" />
+        <target name="SetBuildDefaultEnvironmentVariables" started="06.02.2013 00:17:07" />
+        <target name="GetResolvedWinMD" started="06.02.2013 00:17:07" />
+        <target name="PlatformPrepareForBuild" started="06.02.2013 00:17:07">
+          <error code="MSB8020" file="C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.Cpp.Platform.targets" line="42" column="5"><![CDATA[The builds tools for Visual Studio 2010 (Platform Toolset = 'v100') cannot be found. To build using the v100 build tools, either click the Project menu or right-click the solution, and then select "Update VC++ Projects...". Install Visual Studio 2010 to build using the Visual Studio 2010 build tools.]]></error>
+        </target>
+      </project>
+    </target>
+  </project>
+  <warnings>0</warnings>
+  <errors>8</errors>
+  <starttime>06.02.2013 00:17:05</starttime>
+  <endtime>06.02.2013 00:17:07</endtime>
+  <timeelapsed>00:00:02.7941598</timeelapsed>
+</build>
