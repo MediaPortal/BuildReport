@@ -212,7 +212,7 @@
       <head>
         <meta content="en-us" http-equiv="Content-Language"/>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
-        <link type="text/css" rel="stylesheet" href="BuildReport.css"/>
+        <link type="text/css" rel="stylesheet" href="_BuildReport_Files/BuildReport.css"/>
         <title>
           Build report
         </title>
