@@ -77,25 +77,19 @@
       </td>
       <td>
         <a>
-          <xsl:attribute name="href">
-            #<xsl:value-of select="@safe-name"/>-errors
-          </xsl:attribute>
+          <xsl:attribute name="href">#<xsl:value-of select="@safe-name"/>-errors</xsl:attribute>
           <xsl:value-of select="count(messages/error)" />
         </a>
       </td>
       <td>
         <a>
-          <xsl:attribute name="href">
-            #<xsl:value-of select="@safe-name"/>-warnings
-          </xsl:attribute>
+          <xsl:attribute name="href">#<xsl:value-of select="@safe-name"/>-warnings</xsl:attribute>
           <xsl:value-of select="count(messages/warning)" />
         </a>
       </td>
       <td>
         <a>
-          <xsl:attribute name="href">
-            #<xsl:value-of select="@safe-name"/>-messages
-          </xsl:attribute>
+          <xsl:attribute name="href">#<xsl:value-of select="@safe-name"/>-messages</xsl:attribute>
           <xsl:value-of select="count(messages/message)" />
         </a>
       </td>
@@ -109,27 +103,21 @@
       </h3>
       <!-- anchor -->
       <a>
-        <xsl:attribute name="name">
-          <xsl:value-of select="@safe-name"/>-errors
-        </xsl:attribute>
+        <xsl:attribute name="name"><xsl:value-of select="@safe-name"/>-errors</xsl:attribute>
       </a>
       <ul class="error">
         <xsl:apply-templates select="messages/error" />
       </ul>
       <!-- anchor -->
       <a>
-        <xsl:attribute name="name">
-          <xsl:value-of select="@safe-name"/>-warnings
-        </xsl:attribute>
+        <xsl:attribute name="name"><xsl:value-of select="@safe-name"/>-warnings</xsl:attribute>
       </a>
       <ul class="warning">
         <xsl:apply-templates select="messages/warning" />
       </ul>
       <!-- anchor -->
       <a>
-        <xsl:attribute name="name">
-          <xsl:value-of select="@safe-name"/>-messages
-        </xsl:attribute>
+        <xsl:attribute name="name"><xsl:value-of select="@safe-name"/>-messages</xsl:attribute>
       </a>
       <ul class="message collapsed">
         <xsl:apply-templates select="messages/message" />
