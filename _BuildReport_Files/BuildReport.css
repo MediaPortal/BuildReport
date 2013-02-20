@@ -104,6 +104,11 @@ address {
 
 li.show-messages {
   display: none;
+  list-style: none;
+}
+
+li.hide-messages {
+  list-style: none;
 }
 
 .collapsed li {

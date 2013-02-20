@@ -137,12 +137,12 @@
         <xsl:variable name="messageCount" select="count(messages/message)"/>
         <xsl:if test="$messageCount != 0">
           <li class="show-messages">
-            <a href="" onclick="show_messages(this)">
+            <a href="#" onclick="show_messages(this); return false;">
               Show <xsl:value-of select="$messageCount"/> messages.
             </a>
           </li>
           <li class="hide-messages">
-            <a href="" onclick="hide_messages(this)">
+            <a href="#" onclick="hide_messages(this); return false;">
               Hide <xsl:value-of select="$messageCount"/> messages.
             </a>
           </li>
