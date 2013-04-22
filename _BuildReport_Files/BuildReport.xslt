@@ -9,7 +9,7 @@
   <xsl:template match="build" mode="buildXML">
     <!-- build a list of unique projects -->
     <projects>
-      <xsl:for-each select=".//project[count(. | key('projects-by-file', @file)) = 1]">
+      <xsl:for-each select=".//project[generate-id(.) = generate-id(key('projects-by-file', @file))]">
         <project>
           <xsl:variable name="pathSplitSeparator">
             <xsl:text>\</xsl:text>
@@ -233,6 +233,17 @@ function hide_messages(e)
         </h1>
 
         <div id="content">
+          <h2>Totals</h2>
+
+          <div id="totals">
+            Started on: <xsl:value-of select="starttime"/><br />
+            Finished on: <xsl:value-of select="endtime"/><br />
+            Elapsed: <xsl:value-of select="timeelapsed"/><br />
+            <br />
+            Warnings: <xsl:value-of select="warnings"/><br />
+            Errors: <xsl:value-of select="errors"/><br />
+          </div>
+
           <h2>Overview</h2>
 
           <div id="overview">
