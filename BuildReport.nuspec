@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>BuildReport</id>
+        <version>1.0.0</version>
+        <title>BuildReport</title>
+        <authors>FreeImage developers</authors>
+        <owners>chefkoch</owners>
+        <licenseUrl>https://github.com/MediaPortal/BuildReport</licenseUrl>
+        <projectUrl>https://github.com/MediaPortal/BuildReport</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>BuildReport is a toolset for creating nicely formatted HTML reports of MSBuild logs.</description>
+        <summary>Converts MSBuild log files to HTML files.</summary>
+    </metadata>
+    <files>
+        <file src="_BuildReport_Files\*.*" target="_BuildReport_Files\" />
+        <file src="MSBuild.ExtensionPack.Loggers.dll" target="MSBuild.ExtensionPack.Loggers.dll" />
+        <file src="msxsl.exe" target="msxsl.exe" />
+        <file src="README.md" target="README.md" />
+    </files>
+</package>
