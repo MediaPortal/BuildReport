@@ -116,13 +116,13 @@ li.hide-messages {
 }
 
 ul.error {
-  list-style: square url('icon_error_sml.gif');
+  list-style: square url('icon_error.png');
 }
 
 ul.warning {
-  list-style: square url('icon_warning_sml.gif');
+  list-style: square url('icon_warning.png');
 }
 
 ul.message {
-  list-style: square url('icon_success_sml.gif');
+  list-style: square url('icon_success.png');
 }
